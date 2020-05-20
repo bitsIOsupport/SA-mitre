@@ -47,8 +47,7 @@
                             "{{index}}",
                             "{{host}}",
                             "{{source}}",
-                            "{{sourcetype}}",
-                            "{{type}}"
+                            "{{sourcetype}}"
                         ],
                         "method": "splunk_xml",
                         "output": "__stdout__"
