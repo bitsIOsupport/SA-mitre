@@ -47,7 +47,7 @@
                             "{{index}}",
                             "{{host}}",
                             "{{source}}",
-                            "{{sourcetype}}"
+                            "{{sourcetype}}",
                             "{{type}}"
                         ],
                         "method": "splunk_xml",
