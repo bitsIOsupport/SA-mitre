@@ -33,6 +33,16 @@ fields = [
             max_len=80, 
         )
     ), 
+    field.RestField(
+        'mitre_subtechniques_url',
+        required=False,
+        encrypted=False,
+        default='https://raw.githubusercontent.com/mitre/cti/subtechniques/enterprise-attack/enterprise-attack.json',
+        validator=validator.String(
+            min_len=0, 
+            max_len=8192, 
+        )
+    ), 
 
     field.RestField(
         'disabled',
@@ -46,7 +56,7 @@ model = RestModel(fields, name=None)
 
 
 endpoint = DataInputModel(
-    'mitre_technique',
+    'mitre_subtechniquess',
     model,
 )
 

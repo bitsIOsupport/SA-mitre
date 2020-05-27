@@ -1,5 +1,5 @@
-[mitre_subtechnique://<name>]
-placeholder = Do not set any value to this
+[mitre_techniques://<name>]
+mitre_techniques_url = 
 
-[mitre_technique://<name>]
-placeholder = Do not set any value to this
+[mitre_subtechniques://<name>]
+mitre_subtechniques_url =

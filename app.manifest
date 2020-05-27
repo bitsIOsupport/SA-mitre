@@ -5,13 +5,13 @@
     "id": {
       "group": null,
       "name": "SA-mitre",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     "author": [
       {
         "name": "BITSIO INC",
-        "email": null,
-        "company": null
+        "email": "support@bitsioinc.com",
+        "company": "BITSIO INC"
       }
     ],
     "releaseDate": null,
